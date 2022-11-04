@@ -20,5 +20,12 @@ jobs:
     - name: List file
       run: |
         pwd
-        ls
+        ls -al
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - name: List file
+      run: |
+        pwd
+        ls -al
 
